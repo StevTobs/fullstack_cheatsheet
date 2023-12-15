@@ -1,13 +1,29 @@
+/* Defind the Color name */
+:root {
+    --PineTree:#2D2926;
+    --HalayaUbe:#6C3C5E;
+    --Amazon:#005262;
+    --MoonstoneBlue:#65BBBB;
+    --GrayX11:#C0B9C1;
+    --Snow:#FBFAFB;
 
+    
+  }
+  
 
 nav {
-    background-color: rgb(252, 163, 17);
+    background-color: var(--MoonstoneBlue);
+    /* margin-bottom: 1px; */
+    margin-top: 1px;
     height: 35px;
+    border: 2px solid var(--HalayaUbe);
 }
 nav li {
     display: inline;
     padding-right: 2rem;
-    color: rgb(20, 33, 61);
+    padding-left: 2rem;
+    
+    color: var(--HalayaUbe);
     text-align: center;
     top: 10px;
     position: relative;
@@ -19,7 +35,7 @@ nav li:last-child {
 }
 
 .banner{
-    background-color:  rgb(20, 33, 61);
+    background-color:  var(--HalayaUbe);
     background-position: bottom center;
     height: 150px;
     width: 100%;
@@ -70,7 +86,7 @@ table{
 }
 .palette-1 {
     /* margin-top: 70px; */
-    background-color: #2D2926; 
+    background-color: var(--PineTree); 
     /* width: 50px;  */
 
     color: antiquewhite;
@@ -81,21 +97,21 @@ table{
 }
 
 .palette-2{
-    background-color:  #6C3C5E;
+    background-color: var(--HalayaUbe);
     /* width: 50px;  */
     color: antiquewhite;
     text-align: center;
 }
 
 .palette-3{
-    background-color: #005262;
+    background-color: var(--Amazon);
     /* width: 50px;  */
     color:rgb(0, 0, 0);
     text-align: center;
 }
 
 .palette-4{
-    background-color:  #65BBBB;
+    background-color:  var(--MoonstoneBlue);
     /* width: 50px;  */
     color:rgb(0, 0, 0);
     text-align: center;
@@ -103,10 +119,18 @@ table{
 
 
 .palette-5{
-    background-color:  #C0B9C1;
+    background-color:  var(--GrayX11);
     /* width: 50px;  */
     color:rgb(0, 0, 0);
     text-align: center;
 }
+
+.palette-6{
+    background-color:  var(--Snow);
+    /* width: 50px;  */
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
 
 
