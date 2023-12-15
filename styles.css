@@ -70,7 +70,7 @@ table{
 }
 .palette-1 {
     /* margin-top: 70px; */
-    background-color: rgb(0, 0, 0); 
+    background-color: #2D2926; 
     /* width: 50px;  */
 
     color: antiquewhite;
@@ -81,21 +81,21 @@ table{
 }
 
 .palette-2{
-    background-color:  rgb(20, 33, 61);
+    background-color:  #6C3C5E;
     /* width: 50px;  */
     color: antiquewhite;
     text-align: center;
 }
 
 .palette-3{
-    background-color:  rgb(252, 163, 17);
+    background-color: #005262;
     /* width: 50px;  */
     color:rgb(0, 0, 0);
     text-align: center;
 }
 
 .palette-4{
-    background-color:  rgb(229, 229, 229);
+    background-color:  #65BBBB;
     /* width: 50px;  */
     color:rgb(0, 0, 0);
     text-align: center;
@@ -103,7 +103,7 @@ table{
 
 
 .palette-5{
-    background-color:  rgb(255, 255, 255);
+    background-color:  #C0B9C1;
     /* width: 50px;  */
     color:rgb(0, 0, 0);
     text-align: center;
