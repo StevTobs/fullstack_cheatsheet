@@ -30,8 +30,9 @@ nav li {
     display: inline;
     padding-right: 2rem;
     padding-left: 2rem;
+    font-family: 'Roboto', sans-serif;
 
-    color: var(--Amazon);
+    color: var(--Snow);
     text-align: center;
     top: 10px;
     position: relative;
@@ -68,7 +69,7 @@ nav li {
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    background-color: var(--HalayaUbe);
+    background-color: var(--GrayX11);
     color: var(--Snow);
     max-width: 500px;
     width: 100%;
@@ -85,8 +86,8 @@ h1 {
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    color: var(--Amazon);
-    max-width: 500px;
+    color: var(--HalayaUbe);
+    max-width: 498px;
     /* height: 20px; */
     /* padding: 10px 10px; */
     width: 100%;
@@ -96,12 +97,13 @@ h2 {
     font-weight: 600;
     font-size: 2cap;
     text-align: center;
-    /* border: 2px solid var(--MoonstoneBlue); */
+    border: 1px solid var(--HalayaUbe);
+ 
     /* top | right | bottom | left */
     /* margin: 0px 0px 0px 0px; */
     padding: 10px 0 10px 0;
     margin-left: 2px;
-    margin-right: 0px;
+    margin-right: 2px;
     margin-bottom: 1px;
 
 
@@ -122,7 +124,7 @@ h2 {
 /* Define the width of the first column */
 table th:first-child,
 table td:first-child {
-    width: 98px;
+    width: 96px;
 }
   /* Define the width of the columns after the first */
 table th:not(:first-child),
@@ -130,8 +132,8 @@ table td:not(:first-child) {
     width: 398px;
   }
 .html_code {
-    background: var(--GrayX11);
-    color: var(--Amazon);
+    background: var(--PineTree);
+    color: var(--MoonstoneBlue);
 }
 
 .html_thead th {
@@ -145,7 +147,7 @@ table td:not(:first-child) {
 .html_tbody tr th {
     background-color: var(--HalayaUbe);
     height: 30px;
-    color: var(--Snow);
+    color: var(--GrayX11);
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     /* You can adjust this value based on the available weights */
