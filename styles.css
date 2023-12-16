@@ -24,6 +24,7 @@ nav {
     margin-top: 1px;
     height: 35px;
     border: 2px solid var(--HalayaUbe);
+    display: flex;
 }
 
 nav li {
@@ -66,7 +67,7 @@ nav li {
 }
 
 .section{
-    margin: 10px 0;
+    /* margin: 10px 0; */
 }
 
 .section h1 {
@@ -82,7 +83,8 @@ nav li {
     /* text-indent: 30px; */
     border: 2px solid var(--Snow);
     /* top and bottom | left and right */
-    margin: 10px 0;
+    /* margin: 30px 0; */
+    padding: 20px 0;
 
 
 
@@ -99,17 +101,17 @@ nav li {
     background-color: var(--GrayX11);
     /* text-indent: 4px; */
 
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2cap;
     text-align: center;
     border: 1px solid var(--HalayaUbe);
   
 
     /* top | right | bottom | left */
-    /* margin: 0px 0px 0px 0px; */
-    // padding: 10px 2px 10px 0;
+    margin: 0px 0px 0px 0px;
+     /* padding: 10px 2px 10px 0; */
     /* top and bottom | left and right */   
-    margin: 10px 0;
+    /* margin: 100px 0; */
 
 
 }
@@ -160,7 +162,7 @@ table td:not(:first-child) {
 }
 
 .html_tfoot tr td {
-    background-color: var(--GrayX11);
+    background-color: var(--Snow);
     height: 5px;
     border: none;
 
