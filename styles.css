@@ -56,6 +56,7 @@ nav li {
     /* margin-top: 60px; */
     color: rgb(229, 229, 229);
     font-family: 'Roboto', sans-serif;
+
     background-color: var(--HalayaUbe);
     font-size: xx-large;
     border: 3px solid white;
@@ -65,16 +66,19 @@ nav li {
     margin: 0 auto;
     text-align: center;
     letter-spacing: 0.1em;
+
 }
 
+.section,
 h1 {
     font-family: 'Roboto', sans-serif;
-    background-color: var(--GrayX11);
+    background-color: var(--PineTree);
     color: var(--Snow);
     max-width: 500px;
+    font-size: x-large;
     width: 100%;
     text-align: center;
-  
+
     /* text-indent: 30px; */
     border: 2px solid var(--Snow);
     /* top and bottom | left and right */
@@ -84,6 +88,7 @@ h1 {
 
 }
 
+.section,
 h2 {
     font-family: 'Roboto', sans-serif;
     color: var(--HalayaUbe);
@@ -91,14 +96,14 @@ h2 {
     /* height: 20px; */
     /* padding: 10px 10px; */
     width: 100%;
-    background-color: var(--MoonstoneBlue);
+    background-color: var(--GrayX11);
     /* text-indent: 4px; */
 
     font-weight: 600;
     font-size: 2cap;
     text-align: center;
     border: 1px solid var(--HalayaUbe);
- 
+
     /* top | right | bottom | left */
     /* margin: 0px 0px 0px 0px; */
     padding: 10px 0 10px 0;
@@ -109,14 +114,14 @@ h2 {
 
 }
 
+/* 
 .section {
     text-align: left;
-    max-width: 500;
-
-}
+ 
+}*/
 
 .table {
-    /* width: 500px; */
+    max-width: 1000px;
     border-collapse: collapse;
     margin: 0;
 }
@@ -126,11 +131,13 @@ table th:first-child,
 table td:first-child {
     width: 96px;
 }
-  /* Define the width of the columns after the first */
+
+/* Define the width of the columns after the first */
 table th:not(:first-child),
 table td:not(:first-child) {
     width: 398px;
-  }
+}
+
 .html_code {
     background: var(--PineTree);
     color: var(--MoonstoneBlue);
