@@ -158,3 +158,18 @@ table td:not(:first-child) {
     /* You can adjust this value based on the available weights */
 
 }
+
+.html_tfoot tr td {
+    background-color: var(--GrayX11);
+    height: 5px;
+    border: none;
+
+    /* color: var(--GrayX11); */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+  
+    border-collapse: collapse;
+    /* You can adjust this value based on the available weights */
+
+
+}
