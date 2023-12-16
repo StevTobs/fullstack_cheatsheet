@@ -70,6 +70,7 @@ h1 {
     /* background-color: var(--HalayaUbe); */
     color: var(--Amazon);
     width: 500px;
+    
     text-indent: 30px;
     /* margin-bottom: 0%; */
     text-align: center;
@@ -81,14 +82,18 @@ h1 {
 h2 {
     font-family: 'Roboto', sans-serif;
     color: var(--Amazon);
-    width: 500px;
+    max-width: 482.5px;
+    /* height: 20px; */
+    padding: 10px 10px;
+    
+    width: 100%;
     background-color: var(--GrayX11);
     /* text-indent: 4px; */
     margin-bottom: 0em;
     font-weight: 600;
     font-size: 2cap;
     text-align: center;
-    width: 500px;  
+  
     border: 2px solid var(--PineTree);
     margin: 3px;
     /* margin: 0 auto; */
