@@ -55,6 +55,7 @@ nav li {
     /* margin-top: 60px; */
     color: rgb(229, 229, 229);
     font-family: 'Roboto', sans-serif;
+    background-color: var(--HalayaUbe);
     font-size: xx-large;
     border: 3px solid white;
     position: relative;
@@ -67,13 +68,16 @@ nav li {
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    /* background-color: var(--HalayaUbe); */
-    color: var(--Amazon);
-    width: 500px;
-    
-    text-indent: 30px;
-    /* margin-bottom: 0%; */
+    background-color: var(--HalayaUbe);
+    color: var(--Snow);
+    max-width: 500px;
+    width: 100%;
     text-align: center;
+  
+    /* text-indent: 30px; */
+    border: 2px solid var(--Snow);
+    /* top and bottom | left and right */
+    margin: 10px 0;
 
 
 
@@ -82,49 +86,53 @@ h1 {
 h2 {
     font-family: 'Roboto', sans-serif;
     color: var(--Amazon);
-    max-width: 482.5px;
+    max-width: 500px;
     /* height: 20px; */
-    padding: 10px 10px;
-    
+    /* padding: 10px 10px; */
     width: 100%;
-    background-color: var(--GrayX11);
+    background-color: var(--MoonstoneBlue);
     /* text-indent: 4px; */
-    margin-bottom: 0em;
+
     font-weight: 600;
     font-size: 2cap;
     text-align: center;
-  
-    border: 2px solid var(--PineTree);
-    margin: 3px;
-    /* margin: 0 auto; */
+    /* border: 2px solid var(--MoonstoneBlue); */
+    /* top | right | bottom | left */
+    /* margin: 0px 0px 0px 0px; */
+    padding: 10px 0 10px 0;
+    margin-left: 2px;
+    margin-right: 0px;
+    margin-bottom: 1px;
+
 
 }
 
 .section {
     text-align: left;
+    max-width: 500;
 
 }
 
 .table {
     /* width: 500px; */
     border-collapse: collapse;
+    margin: 0;
 }
 
 /* Define the width of the first column */
 table th:first-child,
 table td:first-child {
-    width: 100px;
+    width: 98px;
 }
   /* Define the width of the columns after the first */
 table th:not(:first-child),
 table td:not(:first-child) {
-    width: 400px;
+    width: 398px;
   }
 .html_code {
     background: var(--GrayX11);
     color: var(--Amazon);
 }
-
 
 .html_thead th {
     background-color: var(--HalayaUbe);
@@ -132,10 +140,6 @@ table td:not(:first-child) {
     color: var(--Snow);
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-
-    /* You can adjust this value based on the available weights */
-
-
 }
 
 .html_tbody tr th {
