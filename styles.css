@@ -8,8 +8,6 @@
     --Snow: #FBFAFB;
 }
 
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
 
 
@@ -49,7 +47,7 @@ nav li {
 }
 
 .banner h1 {
-    width: 400px;
+    width: 600px;
     /* margin-top: 60px; */
     color: rgb(229, 229, 229);
     font-family: 'Roboto', sans-serif;
@@ -66,12 +64,30 @@ nav li {
 
 }
 
+.container {
+    font-family: 'Roboto', sans-serif;
+    /* max-width: 500px; */
+    /* display: grid; */
+    /* grid-template-columns: 1fr; Create one column */
+    grid-gap: 10px; /* Add some space between items */
+}
 .section{
-    /* margin: 10px 0; */
+    display: grid;
+
+    /* display: flex; */
+    /* flex-direction: column; .*Stack items vertically */ */
+    /* max-width: 500px; */
+    margin: 5px 0;
+    /* margin-bottom: 100px ; */
+    
+}
+
+.section table{
+    margin-bottom: 10px ;  
 }
 
 .section h1 {
-    max-width: 500px;
+    /* max-width: 500px; */
     font-family: 'Roboto', sans-serif;
     background-color: var(--PineTree);
     color: var(--Snow);
@@ -88,9 +104,10 @@ nav li {
 
 
 
+
 }
 
-.section h2 {
+.title_name h2 {
     max-width: 500px;
     font-family: 'Roboto', sans-serif;
     color: var(--PineTree);
@@ -98,29 +115,28 @@ nav li {
     /* height: 20px; */
     /* padding: 10px 10px; */
     width: 100%;
-    background-color: var(--GrayX11);
+    /* background-color: var(--GrayX11); */
     /* text-indent: 4px; */
 
     font-weight: 500;
     font-size: 2cap;
     text-align: center;
-    border: 1px solid var(--HalayaUbe);
-  
+    /* border: 1px solid var(--HalayaUbe); */
+    /* margin-top: 10px; */
 
     /* top | right | bottom | left */
-    margin: 0px 0px 0px 0px;
+    /* margin: 0px 0px 0px 0px; */
      /* padding: 10px 2px 10px 0; */
     /* top and bottom | left and right */   
-    /* margin: 100px 0; */
+    /* margin: auto 0; */
 
 
 }
 
-
-
 .table {
     /* max-width: 1000px; */
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
+   
     
 }
 
@@ -135,7 +151,7 @@ table td:first-child {
 table th:not(:first-child),
 table td:not(:first-child) {
     width: 398px;
-    text-indent: 3px;
+    /* text-indent: 3px; */
 }
 
 .html_code {
@@ -162,7 +178,7 @@ table td:not(:first-child) {
 }
 
 .html_tfoot tr td {
-    background-color: var(--Snow);
+    /* background-color: var(--Snow); */
     height: 5px;
     border: none;
 
@@ -170,7 +186,7 @@ table td:not(:first-child) {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
   
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
     /* You can adjust this value based on the available weights */
 
 
